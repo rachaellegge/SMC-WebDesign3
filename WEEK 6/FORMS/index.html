@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="main.css">
+
+  <title>Bootsrap forms</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 p-5">
+          <h1 class="text-center">CHECKOUT</h1>
+        </div>
+        <div class="col-md-6" style="background-color: ghostwhite;">
+          <img class="img-fluid mx-auto d-block" src="handbag.png">
+          <h2 class="text-center mt-5">PINK HANDBAG</h2>
+          <h3 lead class="text-center">$150</h3>
+        </div>
+
+        <div class="col-md-6">
+          <div class="cc-form">
+            <div class="progress mt-3 mb-3">
+              <div class="progress-bar bg-dark" role="progressbar" style="width: 33.34%" aria-valuenow="33.34"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h4 class="pt-2 pb-2">SHIPPING INFO</h4>
+            <form action="" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="validationCustom01">First Name</label>
+                  <input type="text" class="form-control" id="validationCustom01" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="validationCustom02">Last Name</label>
+                  <input type="text" class="form-control" id="validationCustom02" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
+                  required>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity" required>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control" required>
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip" required>
+                </div>
+              </div>
+
+              <h4 class="pt-2 pb-2">BILLING INFO</h4>
+              <form action="" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="cc-name">Name on card</label>
+                    <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                    <small class="text-muted">Full name as displayed on card</small>
+                    <div class="invalid-feedback">
+                      Name on card is required
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="cc-number">Credit card number</label>
+                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                    <div class="invalid-feedback">
+                      Credit card number is required
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <label for="cc-expiration">Expiration</label>
+                    <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                    <div class="invalid-feedback">
+                      Expiration date required
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="cc-expiration">CVV</label>
+                    <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                    <div class="invalid-feedback">
+                      Security code required
+                    </div>
+                  </div>
+                </div>
+                <hr class="mb-4">
+                <button type="submit" class="btn btn-dark btn-block mt-5 mb-5">Pay</button>
+              </form>
+            </form>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="shim"></div>
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+  <script>
+    $("form.needs-validation").submit(function (event) {
+      event.preventDefault();
+
+      if ($("input#exampleInputEmail1").val() === "") {
+        $("form.needs-validation").removeClass('needs-validation').addClass('was-validated');
+      }
+    })
+  </script>
+</body>
+
+</html>
