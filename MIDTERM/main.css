@@ -2,9 +2,43 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.jumbotron-1 {
+    background-image: url('assets/images/CAROSEL/ocean.jpg');
+    background-size: cover;
+}
+
+.jumbotron-2 {
+    background-image: url('assets/images/CAROSEL/beach.jpg');
+    background-position: top, center;
+    background-size: cover;
+}
+
+.jumbotron-3 {
+    background-image: url('assets/images/CAROSEL/travel.jpg');
+    background-position: top, center;
+    background-size: cover;
+
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+ul {
+    font-size: 1.2rem;
+}
+
+
+
 
 .bg-dark {
     background: black !important;
+}
+
+
+
+.btn-dark {
+    background-color: black !important;
 }
 
 .nav-shim {
@@ -18,20 +52,79 @@
     letter-spacing: .3rem;
     font-size: 1.6rem;
 }
+
+footer {
+    background-color: black;
+}
  
 h1 {
     letter-spacing: .3rem;
+}
+
+h5, h4, h3 {
+    letter-spacing: .175rem;
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+    font-weight: 700; 
 }
 
 .display-4 {
     font-size: 2.5rem;
 }
 
-
-.hotel-h3 {
+.display-3 {
     font-family: 'Cormorant', serif;
+    font-size: 2.25rem;
 }
 
 
 
+.carousel-caption {
+    transform: translateY(-70%);
+    top: 60%;
+    bottom: 0;
+}
 
+.bg-carousel-1 {
+    background-image: url('assets/images/CAROSEL/bora-bora-2 copy.jpg');
+}
+
+.bg-carousel-2 {
+    background-image: url('assets/images/CAROSEL/splash.jpg');
+}
+
+.bg-carousel-3 {
+    background-image: url('assets/images/CAROSEL/safari.jpg');
+}
+
+.bg-carousel-4 {
+    background-image: url('assets/images/CAROSEL/Greece copy.jpg');
+}
+
+.bg-carousel-5 {
+    background-image: url('assets/images/CAROSEL/bora-bora-3.jpg');
+}
+
+.bg-carousel-6 {
+    background-image: url('assets/images/CAROSEL/cruise.jpg');
+}
+
+
+.bg-carousel-1,
+.bg-carousel-2,
+.bg-carousel-3,
+.bg-carousel-4,
+.bg-carousel-5,
+.bg-carousel-6 {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    transform: translateY(85%);
+    top: 0;
+    bottom:50%;
+}
