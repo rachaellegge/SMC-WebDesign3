@@ -2,22 +2,34 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.jumbotron {
+    background-position: top, center;
+    background-size: cover;
+}
+
 .jumbotron-1 {
     background-image: url('assets/images/CAROSEL/ocean.jpg');
-    background-size: cover;
 }
 
 .jumbotron-2 {
     background-image: url('assets/images/CAROSEL/beach.jpg');
-    background-position: top, center;
-    background-size: cover;
 }
 
 .jumbotron-3 {
     background-image: url('assets/images/CAROSEL/travel.jpg');
-    background-position: top, center;
-    background-size: cover;
 
+}
+
+.jumbotron-4 {
+    background-image: url('assets/images/CAROSEL/people.jpg');
+}
+
+.jumbotron-5 {
+    background-image: url('assets/images/TEAM/TEAM.jpg');
+}
+
+.jumbotron-4 .container {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 p {
@@ -28,13 +40,9 @@ ul {
     font-size: 1.2rem;
 }
 
-
-
-
 .bg-dark {
     background: black !important;
 }
-
 
 
 .btn-dark {
@@ -57,12 +65,13 @@ footer {
     background-color: black;
 }
  
-h1 {
-    letter-spacing: .3rem;
+h1, h2 {
+    letter-spacing: .15rem;
+    font-weight: 400;
 }
 
 h5, h4, h3 {
-    letter-spacing: .175rem;
+    letter-spacing: .10rem;
     font-family: 'Cormorant', serif;
     text-transform: uppercase;
     font-weight: 700; 
@@ -76,6 +85,7 @@ h5, h4, h3 {
     font-family: 'Cormorant', serif;
     font-size: 2.25rem;
 }
+
 
 
 
@@ -128,3 +138,5 @@ h5, h4, h3 {
     top: 0;
     bottom:50%;
 }
+
+
