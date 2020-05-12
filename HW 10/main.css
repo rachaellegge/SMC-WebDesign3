@@ -1,0 +1,177 @@
+body {
+    animation: colorBody 5s;
+    overflow: hidden;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  @keyframes colorBody {
+    from {background-color: rgb(239, 255, 147);}
+    to {background-color: hsl(56, 100%, 50%);}
+  }
+
+  .jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('lemonade.jpg');
+}
+
+  main {
+    animation: popTheMain 2s 3s;
+    animation-fill-mode: forwards;
+    z-index: 10;
+    position: relative;
+    opacity: 0;
+  }
+
+
+
+  @keyframes popTheMain {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .bbl span {
+      position: fixed;
+      bottom:-50px;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 3px solid limegreen;
+      animation: up 2s linear infinite;
+  }
+
+  .bbl span:nth-child(1) {
+      left: 0;
+      animation-delay: 0.10s;
+  }
+
+  .bbl span:nth-child(2) {
+    left: 10%;
+    animation-delay: 0.3s;
+}
+
+.bbl span:nth-child(3) {
+    left: 20%;
+    animation-delay: 0.75s;
+}
+
+.bbl span:nth-child(4) {
+    left: 30%;
+    animation-delay: .25s;
+}
+
+.bbl span:nth-child(5) {
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.bbl span:nth-child(6) {
+    left: 50%;
+    animation-delay: .5s;
+}
+
+.bbl span:nth-child(7) {
+    left: 60%;
+    animation-delay: .15s;
+}
+
+.bbl span:nth-child(8) {
+    left: 70%;
+    animation-delay: .75s;
+}
+
+.bbl span:nth-child(9) {
+    left: 80%;
+    animation-delay: .25s;
+}
+
+.bbl span:nth-child(10) {
+    left: 90%;
+    animation-delay: 1s;
+}
+
+@keyframes up {
+    0% {bottom: 0%; margin-left: 100px; margin-right: 0px; border-color: yellow;}
+    20% {bottom: 20%; margin-left: 0px; margin-right: 100px; border-color: yellowgreen;}
+    40% {bottom: 40%; margin-left: 100px; margin-right: 0px; border-color: greenyellow;}
+    60% {bottom: 60%; margin-left: 0px; margin-right: 100px; border-color: lime;}
+    100% {bottom: 100%; margin-left: 100px; margin-right: 0px;}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.container-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: auto auto 1rem auto;
+}
+
+.text-label {
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-size: 0.75rem;
+	letter-spacing: 0.2em;
+	color: #fff;
+}
+
+.arrow-circle-down {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 16px 0;
+	/*fill: #fff;*/
+}
+
+.bounce {
+	-webkit-animation: bounce 2s;
+	        animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
