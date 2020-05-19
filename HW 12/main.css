@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat&display=swap');
+
+body {
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);    
+}
+
+canvas {
+  border: 6px solid #ffffff;
+  margin: 10px;
+}
+
+.title {
+  color: white;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 3rem;
+}
+
+#scoreCount {
+font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:active {
+  background-color: #fff;
+  color: #ff0707;
+  box-shadow: 0 5px 10px #ff0707;
+  /* transform: translateY(4px); */
+  font-family: 'Roboto', sans-serif;
+}
+
+#colorBtn {
+font-family: 'Bungee Inline', cursive;
+}
+
+
