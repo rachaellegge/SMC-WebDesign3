@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap');
+
+.nav-shim {
+    height: 65px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.display-4 {
+    font-size: 7rem;
+    font-weight: 300;
+}
+
+.carousel-caption {
+    transform: translateY(-70%);
+    top: 60%;
+    bottom: 0;
+}
+
+.bg-carousel-1,
+.bg-carousel-2,
+.bg-carousel-3,
+.bg-carousel-4,
+.bg-carousel-5,
+.bg-carousel-6 {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-carousel-1 {
+    background-image: url('assets/images/carousel/byecorona.jpg');
+}
